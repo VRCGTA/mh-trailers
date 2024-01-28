@@ -3,8 +3,8 @@ Config.AttachedKey = 38     -- 38 = E
 Config.AttacheKeyTxt = "E"  -- if AttachedKey = 38 this is E
 
 Config.Models = {
-    trucks = {'hauler'},
-    trailers = {'tr2', 'trailersmall', 'boattrailer', 'trflat'},
+    trucks = {'none', 'hauler', 'phantom', 'phantom3', 'packer'},
+    trailers = {'trailers', 'docktrailer', 'tr4', 'baletrailer', 'trailerlogs', 'trailersmall', 'boattrailer', 'trflat', 'graintrailer', 'tvtrailer', 'tr2', 'tanker2', 'trailers3', 'trailers2', 'tanker', 'trailers4'},
     ramp = "imp_prop_flatbed_ramp" -- hash -901038522
 }
 
@@ -13,14 +13,14 @@ Config.Rent = {
     shop = {
         ped      = "S_M_M_TRUCKER_01",
         senario  = "WORLD_HUMAN_STAND_MOBILE",
-        location = vector4(1108.8704, -2256.7051, 30.9380, 95.5586),
+        location = vector4(193.60, -3206.77, 5.79, 91.04),
         cost     = 500
     },
     spawn = {
-        truck   = vector3(1103.74, -2244.24, 30.52),
-        trailer = vector3(1104.49, -2236.33, 30.32),
-        garage  = vector3(1114.6820, -2285.8853, 30.4499),
-        heading = 175.35,
+        truck   = vector3(166.39, -3228.21, 5.95),
+        trailer = vector3(165.92, -3178.02, 5.96),
+        garage  = vector3(210.86, -3124.19, 5.86),
+        heading = 270.0,
     },
     blip = {
         garagelabel = "Trailer Rent Garage",

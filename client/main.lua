@@ -130,7 +130,8 @@ local function SpawnTruckAndTrailer(truckModel, trailerModel)
     else
 
         if truckModel ~= nil then
-            if trailerModel == "boattrailer" then
+            if trailerModel == "boattrailer"
+            or trailerModel == "trailersmall" then
                 truckModel = "sadler"
             end
             ClearAreaOfVehicles(tmpSpawnPosition, 10000, false, false, false, false, false)
